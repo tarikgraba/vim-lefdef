@@ -1,8 +1,11 @@
 # Design/Library Exchange Formats syntax files
 
-This repository contains a copy of the `LEF_DEF_syntax` files created by [Levon Ohanyan](http://www.vim.org/account/profile.php?user_id=67412) that you can find on [vim.org](http://www.vim.org/account/profile.php?user_id=67412).
+The comtent of this repository is based on the `LEF_DEF_syntax` syntax files created by [Levon Ohanyan](http://www.vim.org/account/profile.php?user_id=67412) that you can find on [vim.org](http://www.vim.org/account/profile.php?user_id=67412).
 
-This copy is just here to simplify their installation using a plugin manager (like [Vundle](https://github.com/VundleVim/Vundle.vim) or [Plug](https://github.com/junegunn/vim-plug)).
+This copy simplifies the installation using a plugin manager (like [Vundle](https://github.com/VundleVim/Vundle.vim) or [Plug](https://github.com/junegunn/vim-plug)).
+
+
+Some highlight group have been modified to use more common ones.
 
 ----
 

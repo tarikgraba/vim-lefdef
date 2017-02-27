@@ -31,7 +31,7 @@ syn keyword basic_keywords ADJACENTCUTS
 syn keyword basic_keywords WITHIN
 syn keyword basic_keywords EXCEPTSAMEPGNET
 syn keyword basic_keywords PARALLELOVERLAP
-syn keyword basic_keywords PROPERTY
+syn keyword basic_keywords PROPERTY PROPERTYDEFINITIONS
 syn keyword basic_keywords SPACINGTABLE ORTHOGONAL
 syn keyword basic_keywords ARRAYSPACING LONGARRAY WIDTH CUTSPACING
 syn keyword basic_keywords ARRAYCUTS SPACING
@@ -129,16 +129,16 @@ hi def link comment         Comment
 hi def link class_type      Type
 hi def link nums            Number
 hi def link ErrorNumber     Error
-hi def link layer           EnumerationName
-hi def link layer_types     Typedef
-hi def link lef_types       EnumerationName
-hi def link lef_vals        EnumerationValue
+hi def link layer           Function
+hi def link layer_types     Define
+hi def link lef_types       Define
+hi def link lef_vals        Define
 hi def link global_const    Define
 hi def link macro_statement Statement
 hi def link lef_extension   Statement
 hi def link local_var       Label
-hi def link end             Fragment
-hi def link pin_props       Property
+hi def link end             Keyword
+hi def link pin_props       Function
 hi def link db_macrons      GlobalConstant
 
 let b:current_syntax = "lef"
