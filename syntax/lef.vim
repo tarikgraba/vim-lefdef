@@ -23,6 +23,7 @@ syn keyword basic_keywords GENERATE NONDEFAULTRULE SITE LIBRARY
 syn keyword lef_extension BEGINEXT CREATOR DATE REVISION ENDEXT
 
 syn keyword basic_keywords TYPE CUT
+syn keyword basic_keywords OFFSET PITCH
 syn keyword basic_keywords SPACING
 syn keyword basic_keywords CENTERTOCENTER
 syn keyword basic_keywords SAMENET
@@ -41,6 +42,7 @@ syn keyword basic_keywords WIDTH EXCEPTEXTRACUT
 syn keyword basic_keywords LENGTH
 syn keyword basic_keywords PREFERENCLOSURE
 syn keyword basic_keywords RESISTANCE
+syn keyword basic_keywords CAPACITANCE
 syn keyword basic_keywords ACCURRENTDENSITY PEAK AVERAGE RMS
 syn keyword basic_keywords FREQUENCY
 syn keyword basic_keywords CUTAREA
@@ -73,6 +75,7 @@ syn keyword pin_props DIRECTION PORT PATH SHAPE ABUTMENT RING FEEDTHRU USE MUSTJ
 syn keyword pin_props ANTENNAPARTIALMETALAREA ANTENNAPARTIALMETALSIDEAREA ANTENNAPARTIALCUTAREA
 syn keyword pin_props ANTENNADIFFAREA ANTENNAGATEAREA ANTENNAMAXAREACAR
 syn keyword pin_props ANTENNAMAXSIDEAREACAR ANTENNAMAXCUTCAR
+syn keyword pin_props OVERHANG METALOVERHANG
 
 " LAYERS
 syn keyword layer LAYER
