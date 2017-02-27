@@ -16,8 +16,10 @@ How to install DEF (Design Exchange Format) and LEF (Library Exchange Format) sy
  1. Copy `syntax/*` to `$HOME/.vim/syntax/`
  2. Copy `ftdetect/*` to `/home/.vim/ftdetect/`
  3. Add to your .vimrc file following lines:
+```
     autocmd FileType lef so ~/.vim/syntax/lef.vim
     autocmd FileType def so ~/.vim/syntax/def.vim
+```
 
 ## For Windows:
  1. Copy `syntax/*` to `C:\Program Files (x86)\Vim\vimfiles\syntax\ `
